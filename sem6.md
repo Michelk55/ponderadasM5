@@ -1,8 +1,8 @@
-# Análise de Bibliotecas de Hash (SHA-256) e AES-256 em Python
+o# Análise de Bibliotecas de Hash (SHA-256) e AES-256 em Python
 
 ## Método Utilizado
 
-Para explorar as funcionalidades das bibliotecas de hash SHA-256 e de criptografia AES-256 em Python, foram conduzidos 10 testes distintos, divididos igualmente entre as duas tecnologias. Utilizamos a biblioteca `hashlib` para geração de hashes SHA-256 e a biblioteca `pycryptodome` para criptografia e descriptografia com AES-256.
+Para explorar as funcionalidades das bibliotecas de hash SHA-256 e de criptografia AES-256 em Python, foram feitos 10 testes distintos, divididos igualmente entre as duas tecnologias. Utilizei a biblioteca `hashlib` para geração de hashes SHA-256 e a biblioteca `pycryptodome` para criptografia e descriptografia com AES-256.
 
 Os testes de SHA-256 envolveram a geração de hashes para diferentes tipos de dados, enquanto os testes de AES-256 envolveram a criptografia e subsequente descriptografia dos mesmos tipos de dados, para avaliar a integridade e eficácia da criptografia.
 
@@ -40,4 +40,4 @@ Devido à natureza da criptografia AES, o texto criptografado é representado em
 
 - **Segurança**: AES-256 oferece uma solução robusta para a proteção de dados sensíveis, permitindo o acesso aos dados originais através da descriptografia. SHA-256, embora não permita a recuperação de dados a partir do hash, é essencial para verificar a integridade e detectar alterações nos dados.
 
-Concluindo, SHA-256 e AES-256 atendem a diferentes necessidades de segurança digital, com o primeiro garantindo a integridade dos dados e o segundo protegendo a confidencialidade dos mesmos. A escol
+Concluindo, SHA-256 e AES-256 atendem a diferentes necessidades de segurança digital, com o primeiro garantindo a integridade dos dados e o segundo protegendo a confidencialidade dos mesmos.
