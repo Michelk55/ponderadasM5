@@ -163,5 +163,3 @@ Busca eficiente de informações em documentos corporativos para suporte à deci
     "QueryText": "search query"
   }
   ```
-
----
